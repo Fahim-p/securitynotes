@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T19:48:48.418-05:00"}
+{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T21:00:19.948-05:00"}
 ---
 
 Testing 123
@@ -40,7 +40,7 @@ Trying this out again
 
 Going to the target IP address gives us a web login from with a username and password,
 
-![Exported image](/img/user/TryHackMe/THM Images/Exported image 20250204152227-0.png) 
+![Exported%20image%2020250204152227-0.png](/img/user/TryHackMe/THM Images/Exported image 20250204152227-0.png) 
 
 Checking the page source tells us that its using a "POST" method as the request type
 
