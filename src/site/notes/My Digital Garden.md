@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T21:39:25.993-05:00"}
+{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T21:40:57.998-05:00"}
 ---
 
 Testing 123
@@ -33,14 +33,15 @@ Trying this out again
 ![Exported image](/img/user/TryHackMe/THM_Images/6acea8dcaa459a0a51bc6bac7a46278c.png)  
 
 Checking the page source tells us that its using a "POST" method as the request type
- ![Exported image](/img/user/TryHackMe/THM_Images/4caa7657ba57ccde9af7565786a80179.png)
+
+![Exported image](/img/user/TryHackMe/THM_Images/4caa7657ba57ccde9af7565786a80179.png)
 
 Ran the command
 
 ```
 hydra -l molly -P rockyou.txt 10.10.71.57 http-post-form "/login:username=^USER^&password=^PASS^:Your username or password is incorrect"
 ```
-   
+
 ![Exported image](/img/user/TryHackMe/THM_Images/d3bfcde61619b5012049d3a2a6e334f6.png)  
 
 Using the username, molly, and the password, sunshine, allows us to make it through and login to find the flag.
