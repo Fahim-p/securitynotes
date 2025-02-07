@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/introduction-to-siem/"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/introduction-to-siem/","tags":["gardenEntry"]}
 ---
 
 
