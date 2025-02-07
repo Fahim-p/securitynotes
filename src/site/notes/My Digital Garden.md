@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T19:47:48.898-05:00"}
+{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T19:48:48.418-05:00"}
 ---
 
 Testing 123
@@ -39,6 +39,8 @@ Trying this out again
 > **Use Hydra to bruteforce molly's web password. What is flag 1?**
 
 Going to the target IP address gives us a web login from with a username and password,
+
+![Exported image](/img/user/TryHackMe/THM Images/Exported image 20250204152227-0.png) 
 
 Checking the page source tells us that its using a "POST" method as the request type
 
