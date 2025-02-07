@@ -1,24 +1,25 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me-notes/","created":"2025-02-04T14:48:07.563-05:00","updated":"2025-02-06T19:21:52.695-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me-notes/","created":"2025-02-04T14:48:07.563-05:00","updated":"2025-02-06T21:45:07.569-05:00"}
 ---
 
 https://tryhackme.com/r/dashboard
 
-| Name                               | Module             |
-| ---------------------------------- | ------------------ |
-| [[TryHackMe/Rooms/Vulnerability Scanner Overview\|Vulnerability Scanner Overview]] | Cyber Security 101 |
-| [[TryHackMe/Rooms/CyberChef- The Basics\|CyberChef- The Basics]]          | Cyber Security 101 |
-| [[TryHackMe/Rooms/CAPA- The Basics\|CAPA- The Basics]]               | Cyber Security 101 |
-| [[TryHackMe/Rooms/REMnux- Getting Started\|REMnux- Getting Started]]        | Cyber Security 101 |
-| [[TryHackMe/Rooms/FlareVM- Arsenal of Tools\|FlareVM- Arsenal of Tools]]      | Cyber Security 101 |
-| [[TryHackMe/Rooms/Offensive Security Intro\|Offensive Security Intro]]       | Cyber Security 101 |
-| [[TryHackMe/Rooms/Defensive Security Intro\|Defensive Security Intro]]       | Cyber Security 101 |
-| [[TryHackMe/Rooms/Search Skills\|Search Skills]]                  | Cyber Security 101 |
-| [[TryHackMe/Rooms/Linux Fundamentals Part 1\|Linux Fundamentals Part 1]]      | Cyber Security 101 |
-| [[TryHackMe/Rooms/Linux Fundamentals Part 2\|Linux Fundamentals Part 2]]      | Cyber Security 101 |
-| [[TryHackMe/Rooms/Linux Fundamentals Part 3\|Linux Fundamentals Part 3]]      | Cyber Security 101 |
-| [[TryHackMe/Rooms/Windows Command Line\|Windows Command Line]]           | Cyber Security 101 |
-| [[TryHackMe/Rooms/Windows PowerShell\|Windows PowerShell]]             | Cyber Security 101 |
-| [[TryHackMe/Rooms/Linux Shells\|Linux Shells]]                   | Cyber Security 101 |
-| [[TryHackMe/Rooms/Advent of Cyber 2024\|Advent of Cyber 2024]]           | AdventOfCyber      |
-|                                    |                    |
+| Name                                                                                    | Module             |
+| --------------------------------------------------------------------------------------- | ------------------ |
+| [Vulnerability Scanner Overview](TryHackMe/Rooms/Vulnerability%20Scanner%20Overview.md) | Cyber Security 101 |
+| [CyberChef- The Basics](TryHackMe/Rooms/CyberChef-%20The%20Basics.md)                   | Cyber Security 101 |
+| [CAPA- The Basics](TryHackMe/Rooms/CAPA-%20The%20Basics.md)                             | Cyber Security 101 |
+| [REMnux- Getting Started](TryHackMe/Rooms/REMnux-%20Getting%20Started.md)               | Cyber Security 101 |
+| [FlareVM- Arsenal of Tools](TryHackMe/Rooms/FlareVM-%20Arsenal%20of%20Tools.md)         | Cyber Security 101 |
+| [Offensive Security Intro](TryHackMe/Rooms/Offensive%20Security%20Intro.md)             | Cyber Security 101 |
+| [Defensive Security Intro](TryHackMe/Rooms/Defensive%20Security%20Intro.md)             | Cyber Security 101 |
+| [Search Skills](TryHackMe/Rooms/Search%20Skills.md)                                     | Cyber Security 101 |
+| [Linux Fundamentals Part 1](TryHackMe/Rooms/Linux%20Fundamentals%20Part%201.md)         | Cyber Security 101 |
+| [Linux Fundamentals Part 2](TryHackMe/Rooms/Linux%20Fundamentals%20Part%202.md)         | Cyber Security 101 |
+| [Linux Fundamentals Part 3](TryHackMe/Rooms/Linux%20Fundamentals%20Part%203.md)         | Cyber Security 101 |
+| [Windows Command Line](TryHackMe/Rooms/Windows%20Command%20Line.md)                     | Cyber Security 101 |
+| [Windows PowerShell](TryHackMe/Rooms/Windows%20PowerShell.md)                           | Cyber Security 101 |
+| [Linux Shells](TryHackMe/Rooms/Linux%20Shells.md)                                       | Cyber Security 101 |
+| [Advent of Cyber 2024](TryHackMe/Rooms/Advent%20of%20Cyber%202024.md)                   | AdventOfCyber      |
+|                                                                                         |                    |
+

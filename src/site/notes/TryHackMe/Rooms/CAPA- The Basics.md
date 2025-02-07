@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/capa-the-basics/","created":"2024-11-25T17:41:00.000-05:00","updated":"2025-02-06T21:42:53.299-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/capa-the-basics/","created":"2024-11-25T17:41:00.000-05:00","updated":"2025-02-06T21:51:30.209-05:00"}
 ---
 
 # Task 1 - Introduction
