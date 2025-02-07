@@ -1,10 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T21:10:20.788-05:00"}
+{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T21:14:24.818-05:00"}
 ---
 
 Testing 123
 
 Trying this out again 
+
+
+![](/img/user/Testing.png)
+
 
 
 
@@ -14,12 +18,6 @@ Trying this out again
     - `hydra -l user -P passlist.txt [ftp://MACHINE_IP](ftp://MACHINE_IP)`
 - Another example
     - `hydra -l <username> -P <wordlist> 10.10.71.57 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V`
-
-
-| Testing | 1   |
-| ------ | --- |
-| 5      | 4   |
-| 6      | 3   |
 
 
 | Option              | Description                                                                            |
@@ -39,13 +37,6 @@ Trying this out again
 > **Use Hydra to bruteforce molly's web password. What is flag 1?**
 
 Going to the target IP address gives us a web login from with a username and password,
-
-
-![](/img/user/Pasted image 20250206210349.png)
-
-![](/img/user/TryHackMe/THM_Images/Exported_image_20250204152227-0.png) 
-
-Exported_image_20250204152227-0.png
 
 Checking the page source tells us that its using a "POST" method as the request type
 
