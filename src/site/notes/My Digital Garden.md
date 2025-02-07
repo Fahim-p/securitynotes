@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T19:43:41.145-05:00"}
+{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T19:45:56.277-05:00"}
 ---
 
 Testing 123
@@ -14,6 +14,12 @@ Trying this out again
     - `hydra -l user -P passlist.txt [ftp://MACHINE_IP](ftp://MACHINE_IP)`
 - Another example
     - `hydra -l <username> -P <wordlist> 10.10.71.57 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V`
+
+
+| Testin | 1   |
+| ------ | --- |
+| 5      | 4   |
+
 
 
 > [!Question]
