@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T21:14:24.818-05:00"}
+{"dg-publish":true,"permalink":"/my-digital-garden/","tags":["gardenEntry"],"created":"2025-02-06T18:51:33.711-05:00","updated":"2025-02-06T21:34:19.771-05:00"}
 ---
 
 Testing 123
@@ -7,10 +7,9 @@ Testing 123
 Trying this out again 
 
 
-![](/img/user/Testing.png)
+![](/img/user/TryHackMe/THM_Images/c0b5125ed3719685b8ea6c74db9914ad.png)
 
-
-
+![](/img/user/TryHackMe/THM_Images/687bf32905e7a615172b917db8f82d0b.png)
 
 # Task 2 - Using Hydra
 
