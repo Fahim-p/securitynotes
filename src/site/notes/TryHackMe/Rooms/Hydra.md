@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/hydra/","created":"2024-11-04T16:15:42.215-05:00","updated":"2025-02-06T21:54:43.277-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/hydra/","created":"2024-11-04T16:15:42.215-05:00","updated":"2025-02-06T21:59:18.877-05:00"}
 ---
 
 # Task 2 - Using Hydra
@@ -10,9 +10,9 @@
 | -P                  | indicates a list of passwords                                                          |
 | -t                  | sets the number of threads to spawn                                                    |
 | http-post-form      | the type of the form is POST                                                           |
-| <path>              | the login page URL, for example, login.php                                             |
-| <login_credentials> | the username and password used to log in, for example, username=^USER^&password=^PASS^ |
-| <invalid_response>  | part of the response when the login fails                                              |
+| path              | the login page URL, for example, login.php                                             |
+| login_credentials | the username and password used to log in, for example, username=^USER^&password=^PASS^ |
+| invalid_response  | part of the response when the login fails                                              |
 | -V                  | verbose output for every attempt                                                       |
 
 - Example command to brute force ftp    
