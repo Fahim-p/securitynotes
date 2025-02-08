@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/ids-fundamentals/","created":"2024-11-23T21:56:27.960-05:00","updated":"2025-02-06T21:54:46.145-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/ids-fundamentals/","created":"2024-11-23T21:56:27.960-05:00","updated":"2025-02-08T01:28:13.811-05:00"}
 ---
 
 # Task 2 - Types of IDS
@@ -87,6 +87,7 @@
 | Message (msg)       | Message to be displayed when the subject rule triggers.                                                                                                                                                                |
 | Signature ID (sid)  | Every rule has a unique identifier that differentiates it from the other rules. In this case, we set the sid to "10001".                                                                                               |
 | Rule revision (rev) | Revision number of the rule. Every time the rule is modified, its revision number is incremented.                                                                                                                      |
+
 ![](/img/user/TryHackMe/THM_Images/d854fc3d760e6919b38bb04eebd08a44.png)
 - **Rule creation**
 	- Open any rule file in Snorts rules directory
