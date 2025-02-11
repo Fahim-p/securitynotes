@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/threat-modeling/","created":"2025-02-08T19:46:17.186-05:00","updated":"2025-02-10T22:50:22.862-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/threat-modeling/","created":"2025-02-08T19:46:17.186-05:00","updated":"2025-02-10T22:53:04.797-05:00"}
 ---
 
 # Task 2 - Threat Modeling Overview
@@ -106,7 +106,7 @@ Refer to screenshot above
 > [!Question] 
 > **Upon applying the IaaS platform filter, how many techniques are under the Discovery tactic?**
 
-![](Pasted%20image%2020250209232414.png)
+![](/img/user/TryHackMe/THM_Images/f5c5419f26bb79e51623337e8e16303d.png)
 
 > [!done] Answer
 > 13
