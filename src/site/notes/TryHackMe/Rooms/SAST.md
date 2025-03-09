@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/sast/","created":"2025-02-24T17:37:54.724-05:00","updated":"2025-02-24T20:00:30.287-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/sast/","created":"2025-02-24T17:37:54.724-05:00","updated":"2025-03-09T16:38:29.917-04:00"}
 ---
 
 # Task 2 - Code Review
@@ -37,7 +37,7 @@ Information already known in  [SSDLC](SSDLC.md)
 			- `-r`, recursive search for all files under current directory
 			- `-n`, show line number where it occurred
 		- If there are instances shown, then can go within file where found and look more closely
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224175337.png)
+![](/img/user/TryHackMe/THM_Images/1ca950bc88a8d21f8a6c92025b8165dd.png)
 ```
 ## html/db.php
 
@@ -52,18 +52,18 @@ function db_query($conn, $query){
 	- Need to trace the uses of the `db_query()` function throughout the code to identify potential vulnerabilities.
 	- Can do so once again with `grep`
 		- `grep -r -n 'db_query('`
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224175428.png)
+![](/img/user/TryHackMe/THM_Images/df7b34547d4e301aade07eb5331374c0.png)
 
 Need to investigate these results within the corresponding file
 
 First instance
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224175629.png)
+![](/img/user/TryHackMe/THM_Images/ece2d029a95872f6fec5f4fd28db5023.png)
 - Code above is a instance of an SQL injection
 	- `guest_id` parameter is concatenated into raw SQL query without input sanitization
 	- **Code is vulnerable**
 
 Second instance
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224181413.png)
+![](/img/user/TryHackMe/THM_Images/66f43534becfb211a6245b32ddc4bf71.png)
 - GET parameters being concatenated into SQL queries. 
 	- Are sanitized through `preg_replace()` using different regular expressions to replace any character that isn't allowed with an empty string.
 	- Need to evaluate if filters in place present vulnerabilities.
@@ -72,7 +72,7 @@ Second instance
 		- No way for attacker to escape from the string in the SQL sentence
 			- Code **isn't vulnerable**
 Third instance
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224181914.png)
+![](/img/user/TryHackMe/THM_Images/a69840dae6dacaad7f7a84a77ab5b967.png)
 - Allows only numeric characters to be passed through `$_GET['art_id']`. 
 	- `preg_replace()` function is called with a third parameter set to "1". 
 		- Indicates the maximum number of replacements to be done. 
@@ -89,18 +89,18 @@ Third instance
 
 Used the following command, `grep -r -n 'include(' --include=\*.php`
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224182853.png)
+![](/img/user/TryHackMe/THM_Images/23cac4037d976b532bd03d4a2b706b9d.png)
 
 Tried to search for any instances of the other functions being called, didn't find any.
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224182935.png)
+![](/img/user/TryHackMe/THM_Images/8f88104b0f769765c2bd9d48b329658e.png)
 
 > [!Question]
 >  **How many instances of the function found in question 2 exist in your project's code?**
 
 Used the command `grep -r -n -o 'include(' --include=\*.php | wc -l`
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224183137.png)
+![](/img/user/TryHackMe/THM_Images/d39741a58d5cdc22f969e5f208e90f90.png)
 
 > [!Success] Answer
 > 9
@@ -111,7 +111,7 @@ Used the command `grep -r -n -o 'include(' --include=\*.php | wc -l`
 
 Only instance of file that includes a reference to a GET or POST parameter. All the other ones are used other php files
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224183624.png)
+![](/img/user/TryHackMe/THM_Images/3917de964f62aa81fbde7bc27cdc949f.png)
 
 > [!Success] Answer
 > View.php
@@ -347,11 +347,11 @@ End Result of using Psalm as a SAST tool
 
 Going to "db.php" to add annotations to the `db_query` function
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224194001.png)
+![](/img/user/TryHackMe/THM_Images/1db5f93f7122d84ca657ce1b245c6827.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224194126.png)
+![](/img/user/TryHackMe/THM_Images/1948cb210f4345abc07b1b6a1e8b79f9.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224194210.png)
+![](/img/user/TryHackMe/THM_Images/367ffb4158b29cea946bc9869a23337e.png)
 
 > [!Success] Answer
 > 9
@@ -381,12 +381,12 @@ Going to "db.php" to add annotations to the `db_query` function
 > [!Task]
 >  For this task's questions, we will analyse an old version of **ReciPHP**, a small open-source app. Before continuing, make sure to open the `reciphp.code-workspace` icon on your desktop. This will open a VS Code workspace where the project is already loaded for you. VS Code will take around 3 minutes to load, so be patient.
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224195441.png)
+![](/img/user/TryHackMe/THM_Images/2cac9827f86e1c2453562edfd6e00944.png)
 
 > [!Question]
 >  **How many problems in total are detected by Semgrep in this project?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224195620.png)
+![](/img/user/TryHackMe/THM_Images/830b7032f4fc5804a2c51d0f64c18096.png)
 
 > [!Success] Answer
 > 27
@@ -394,7 +394,7 @@ Going to "db.php" to add annotations to the `db_query` function
 > [!Question]
 >  **How many problems are detected in the `showrecipe.inc.php` file?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224195714.png)
+![](/img/user/TryHackMe/THM_Images/88acff3d6415d71477e70b43a8a8948b.png)
 
 > [!Success] Answer
 > 8
@@ -403,7 +403,7 @@ Going to "db.php" to add annotations to the `db_query` function
 >  **Open showrecipe.inc.php. There are two types of problems being reported by Semgrep in this file. One is identified as "tainted-sql-string" and refers to possible SQL injections.
 >  What other problem identifier is reported by Semgrep in this file? (Write the id reported by Semgrep)**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250224195819.png)
+![](/img/user/TryHackMe/THM_Images/0ad4a9f9d4676194c185529336314df3.png)
 
 Other than the "tainted-sql-string" error, the other error being shown is related for cross-site scripting.
 
