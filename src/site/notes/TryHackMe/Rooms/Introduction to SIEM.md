@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/introduction-to-siem/","created":"2024-11-20T18:16:23.906-05:00","updated":"2025-02-06T21:54:53.474-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/introduction-to-siem/","created":"2024-11-20T18:16:23.906-05:00","updated":"2025-03-09T16:38:29.707-04:00"}
 ---
 
 # Task 2 - Network Visibility through SIEM

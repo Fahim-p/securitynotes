@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/re-mnux-getting-started/","created":"2024-11-26T11:23:00.000-05:00","updated":"2025-02-06T21:54:21.188-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/re-mnux-getting-started/","created":"2024-11-26T11:23:00.000-05:00","updated":"2025-03-09T16:38:29.888-04:00"}
 ---
 
 # Task 3 - File Analysis

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/network-security-protocols/","created":"2025-02-19T18:08:51.497-05:00","updated":"2025-02-20T16:19:23.406-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/network-security-protocols/","created":"2025-02-19T18:08:51.497-05:00","updated":"2025-03-09T16:38:29.838-04:00"}
 ---
 
 # Task 2 - Network Security Protocols
@@ -123,12 +123,12 @@
 > [!Task]
 >  **Use the [SSL Shopper](https://www.sslshopper.com/ssl-checker.html) website to check the SSL certificate of [TryHackMe](https://www.tryhackme.com/).**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220143101.png)
+![](/img/user/TryHackMe/THM_Images/fec202c274e629cbf538413847013cce.png)
 
 > [!Task]
 >  **Open the [SuperTool](https://mxtoolbox.com/SuperTool.aspx) website, select the Test Email Server option, and check the SMTP Security for smtp.gmail.com.**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220143259.png)
+![](/img/user/TryHackMe/THM_Images/6115bfa3eab2ec5bc8df9a3755a78125.png)
 
 # Task 3 - Application Layer - More Secure Protocols
 
@@ -277,11 +277,11 @@ Provide the number of the client that encrypts the traffic**
 > [!Question]
 >  **Click the View Site button at the top of the task to launch the static site in split view. What is the flag after completing the exercise?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220151735.png)
+![](/img/user/TryHackMe/THM_Images/3aaee0128ebb71cba19c699d565c38fb.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220151847.png)
+![](/img/user/TryHackMe/THM_Images/a9bb73e79acfe79ae063cf7771bfc937.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220151830.png)
+![](/img/user/TryHackMe/THM_Images/2a60eea774aa9abb9b357fc8d7ac977b.png)
 
 > [!Success] Answer
 > THM{GOT_THE_SSLKEY}

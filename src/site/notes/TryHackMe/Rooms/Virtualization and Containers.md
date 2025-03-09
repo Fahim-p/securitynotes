@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/virtualization-and-containers/","created":"2025-02-20T16:19:33.425-05:00","updated":"2025-02-20T18:37:22.555-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/virtualization-and-containers/","created":"2025-02-20T16:19:33.425-05:00","updated":"2025-03-09T16:38:30.019-04:00"}
 ---
 
 # Task 2 - What is Virtualization
@@ -128,9 +128,9 @@ docker run -p 5000:5000 -d cryillic/thm_example_app
 > [!Question]
 >  **What flag is obtained at [10.10.89.179:5000](http://10.10.245.105:5000) after running the container?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220174735.png)
+![](/img/user/TryHackMe/THM_Images/58616174764388c6249a17e652144e40.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220174814.png)
+![](/img/user/TryHackMe/THM_Images/9ebe09717208392d447d7af707573236.png)
 ![](/img/user/TryHackMe/THM_Images/1_XfXmmA2k7pLPjxu55HwXhg.webp)
 
 > [!Success] Answer
@@ -159,12 +159,12 @@ docker run -p 5000:5000 -d cryillic/thm_example_app
 > [!Task]
 >  **Before proceeding, ensure all clusters are started by running minikube start**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220180019.png)
+![](/img/user/TryHackMe/THM_Images/dc0961d4d0ab43e8f8f0ea5023b114eb.png)
 
 > [!Question]
 >  **How many pods are running on the provided cluster?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220180151.png)
+![](/img/user/TryHackMe/THM_Images/e56b46b636d5dc7d52bd9d64a93daa24.png)
 
 > [!Success] Answer
 > 1
@@ -172,7 +172,7 @@ docker run -p 5000:5000 -d cryillic/thm_example_app
 > [!Question]
 >  **How many system pods are running on the provided cluster?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220182808.png)
+![](/img/user/TryHackMe/THM_Images/a8340425aedbf50537411d7658ed241a.png)
 
 > [!Success] Answer
 > 7
@@ -188,7 +188,7 @@ Refer to previous screenshots
 > [!Question]
 >  **What is the deployment name on the provided cluster?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220183019.png)
+![](/img/user/TryHackMe/THM_Images/f36f3394449a3c2f7386a939d9675a61.png)
 
 > [!Success] Answer
 > hello-tryhackme
@@ -196,7 +196,7 @@ Refer to previous screenshots
 > [!Question]
 >  **What port is exposed by the service in question 5?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220183152.png)
+![](/img/user/TryHackMe/THM_Images/8268ea2366cb29e8d45b6dc68c6d45b5.png)
 
 > [!Success] Answer
 > 8080
@@ -204,7 +204,7 @@ Refer to previous screenshots
 > [!Question]
 >  **How many replica sets are deployed on the provided cluster?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220183321.png)
+![](/img/user/TryHackMe/THM_Images/75519d6a16a6f108cd524e41bff73cf4.png)
 
 > [!Success] Answer
 > 1

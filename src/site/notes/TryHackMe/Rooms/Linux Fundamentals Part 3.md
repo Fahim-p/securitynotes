@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-fundamentals-part-3/","created":"2024-12-03T19:25:00.000-05:00","updated":"2025-02-06T21:54:09.112-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-fundamentals-part-3/","created":"2024-12-03T19:25:00.000-05:00","updated":"2025-03-09T16:38:29.748-04:00"}
 ---
 
 # Task 3 - Terminal Text Editors

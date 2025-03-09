@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/digital-forensics-fundamentals/","created":"2024-11-17T17:24:39.640-05:00","updated":"2025-02-06T21:53:44.700-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/digital-forensics-fundamentals/","created":"2024-11-17T17:24:39.640-05:00","updated":"2025-03-09T16:38:29.635-04:00"}
 ---
 
 # Task 1 - Introduction to Digital Forensics

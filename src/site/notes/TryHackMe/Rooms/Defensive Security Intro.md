@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/defensive-security-intro/","created":"2024-12-03T17:43:00.000-05:00","updated":"2025-02-06T21:53:40.914-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/defensive-security-intro/","created":"2024-12-03T17:43:00.000-05:00","updated":"2025-03-09T16:38:29.627-04:00"}
 ---
 
 # Task 1 - Introduction to Defensive Security
@@ -9,6 +9,8 @@
 
 > [!Success] Answer
 > Blue Team
+
+
 # Task 2 - Areas of Defensive Security
 
 - **SOC Areas of Interest**

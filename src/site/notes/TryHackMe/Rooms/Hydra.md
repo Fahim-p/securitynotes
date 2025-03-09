@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/hydra/","created":"2024-11-04T16:15:42.215-05:00","updated":"2025-02-06T21:59:18.877-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/hydra/","created":"2024-11-04T16:15:42.215-05:00","updated":"2025-03-09T16:38:29.672-04:00"}
 ---
 
 # Task 2 - Using Hydra

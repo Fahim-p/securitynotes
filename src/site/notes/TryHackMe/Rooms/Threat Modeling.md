@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/threat-modeling/","created":"2025-02-08T19:46:17.186-05:00","updated":"2025-02-10T22:53:04.797-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/threat-modeling/","created":"2025-02-08T19:46:17.186-05:00","updated":"2025-03-09T16:38:29.990-04:00"}
 ---
 
 # Task 2 - Threat Modeling Overview
@@ -15,22 +15,22 @@
 | **Vulnerability** | A weakness or flaw in a system, application, or process that may be exploited by a threat to cause harm. It may arise from software bugs, misconfiguration, or design flaws. |
 | **Risk**          | The possibility of being compromised because of a threat taking advantage of a vulnerability. How likely an attack might be successful and how much damage it could cause.   |
 
-- High-level process of threat modeling
-	- Defining the scope
+- **High-level process of threat modeling**
+	- **Defining the scope**
 		- Identify the specific systems, applications, and networks
-	- Asset Identification
+	- **Asset** **Identification**
 		- Diagrams of the organization's architecture and its dependencies. 
 		- Identify the importance of each asset based on the information it handles
-	- Identify Threats
+	- **Identify Threats**
 		- Identify potential threats that may impact the identified assets
-	- Analyze Vulnerabilities and Prioritize Risks 
+	- **Analyze Vulnerabilities and Prioritize Risks** 
 		- Analyze the vulnerabilities based on the potential impact of identified threats in conjunction with assessing the existing security controls. 
 		- Risks should be prioritized based on their likelihood and impact.
-	- Develop and Implement Countermeasures
+	- **Develop and Implement Countermeasures**
 		- Design and implement security controls to address the identified risks
-	- Monitor and Evaluate
+	- **Monitor and Evaluate**
 		- Continuously test and monitor the effectiveness of the implemented countermeasures and evaluate success
-- Attack tree
+- **Attack tree**
 	- Describes and analyzes potential threats again a system/app/infrastructure
 	- Structured, hierarchical approach to breaking attacks into smaller components
 	- Root node is attackers goal, other nodes represents events or conditions to reach goal
@@ -55,7 +55,6 @@
 > [!done] Answer
 > Attack Tree
 
-
 # Task 3 - Modeling with MITRE ATT&CK
 
 - MITRE ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge)
@@ -71,7 +70,7 @@
 > [!Question] 
 > **What is the technique ID of "Exploit Public-Facing Application"?**
 
-![](Pasted%20image%2020250209230011.png)
+![](/img/user/TryHackMe/THM_Images/f4f99e05daf5370d2178a22b1b828f25.png)
 
 > [!done] Answer
 > T1190
@@ -299,9 +298,7 @@ You must follow the seven-step PASTA process in choosing whom to approach for 
 
 > [!done] Answer
 > THM{c00k1ng_thr34ts_w_P4ST4}
-
 # Summary
-
 
 | Framework        | Use Case Applications                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

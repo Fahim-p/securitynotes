@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/tcpdump-the-basics/","created":"2024-10-25T15:46:36.380-04:00","updated":"2025-02-06T21:55:24.148-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/tcpdump-the-basics/","created":"2024-10-25T15:46:36.380-04:00","updated":"2025-03-09T16:38:29.980-04:00"}
 ---
 
 # Task 2 - Basic Packet Capture

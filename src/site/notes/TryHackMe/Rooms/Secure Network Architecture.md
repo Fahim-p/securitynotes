@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/secure-network-architecture/","created":"2025-02-16T16:21:50.446-05:00","updated":"2025-02-16T19:50:45.318-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/secure-network-architecture/","created":"2025-02-16T16:21:50.446-05:00","updated":"2025-03-09T16:38:29.933-04:00"}
 ---
 
 # Task 2 - Network Segmentation
@@ -264,14 +264,14 @@ Destination address matches last rule, resulting in drop
 | LAN         | eth0.20   | Drop           |
 | WAN         | eth0.30   | Drop           |
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250216193304.png)
+![](/img/user/TryHackMe/THM_Images/28a13448577cbba9b9596f3777dae3f0.png)
 
 > [!Question]
 > **What is the flag found after filling in all blanks on the static site?**
 
 Fill out the blanks
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250216193633.png)
+![](/img/user/TryHackMe/THM_Images/43d7249478858fcc801e9216d0a8cc9c.png)
 
 > [!done] Answer
 > THM{M05tly_53cure}

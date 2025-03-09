@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/microsoft-windows-hardening/","created":"2025-02-18T14:46:59.028-05:00","updated":"2025-02-18T22:27:15.211-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/microsoft-windows-hardening/","created":"2025-02-18T14:46:59.028-05:00","updated":"2025-03-09T16:38:29.812-04:00"}
 ---
 
 # Task 2 - Understanding General Concepts
@@ -42,9 +42,9 @@
 
 RDP'ed into the server using credentials, searched for `services`
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218164355.png)
+![](/img/user/TryHackMe/THM_Images/2b63344c4eabc525db7b16776617f768.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218150718.png)
+![](/img/user/TryHackMe/THM_Images/cc562b3f4e5b1952b63e9fa0ddd4529b.png)
 
 > [!done] Answer
 > Manual
@@ -52,15 +52,15 @@ RDP'ed into the server using credentials, searched for `services`
 > [!Question]
 > **Open Registry Editor and find the key “tryhackme”. What is the default value of the key?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218150808.png)
+![](/img/user/TryHackMe/THM_Images/79f01418a7dadad930597e6ff3515d17.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218150824.png)
+![](/img/user/TryHackMe/THM_Images/8ffd3af5d95b797dfcef701f5b54c0cb.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218150913.png)
+![](/img/user/TryHackMe/THM_Images/b455c305e1e5e43b8eb0de22c741f438.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218150928.png)
+![](/img/user/TryHackMe/THM_Images/a81750ae61a6a1f03590159dd0c9aad4.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218150945.png)
+![](/img/user/TryHackMe/THM_Images/966c5810b25030737aed43130276e941.png)
 
 > [!done] Answer
 > {THM_REG_FLAG}
@@ -68,11 +68,11 @@ RDP'ed into the server using credentials, searched for `services`
 > [!Question]
 > **Open the Diagnosis folder and go through the various log files. Can you find the flag?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218151711.png)
+![](/img/user/TryHackMe/THM_Images/81b49a231076e4fc30de2d9ad711916e.png)
 
 Needed admin permissions to open "flag.txt.txt", so I opened `cmd` as administrator and opened the file through there.
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218152034.png)
+![](/img/user/TryHackMe/THM_Images/e8fa29e1888ab34bc95e44ca692b830c.png)
 
 > [!done] Answer
 > {THM_1000710}
@@ -80,11 +80,11 @@ Needed admin permissions to open "flag.txt.txt", so I opened `cmd` as administra
 > [!Question]
 > **Open the Event Viewer and play with various event viewer filters like Information, Error, Warning etc. Which error type has the maximum number of logs?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218152414.png)
+![](/img/user/TryHackMe/THM_Images/437fe8bf5fce7f2e6e67adbe925a2e59.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218152352.png)
+![](/img/user/TryHackMe/THM_Images/16d58d0e969a1588926f3005beb4946a.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218152855.png)
+![](/img/user/TryHackMe/THM_Images/1a11364a3e2342374ffae5e9a6f70df0.png)
 
 > [!done] Answer
 > Level: Error
@@ -126,7 +126,7 @@ Needed admin permissions to open "flag.txt.txt", so I opened `cmd` as administra
 > [!Question]
 > **Find the name of the Administrator Account of the attached VM**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218160218.png)
+![](/img/user/TryHackMe/THM_Images/b68572dc217cccf78f7b8b5bbd50f15c.png)
 
 > [!done] Answer
 > Harden
@@ -134,9 +134,9 @@ Needed admin permissions to open "flag.txt.txt", so I opened `cmd` as administra
 > [!Question]
 > **Go to the User Account Control Setting Panel (Control Panel > All Control Panel Items > User Accounts). What is the default level of Notification?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218160350.png)
+![](/img/user/TryHackMe/THM_Images/054653f30d96bf128bb2e4a9ee799c6f.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218160421.png)
+![](/img/user/TryHackMe/THM_Images/a8a50f2da2c80f77458477aa78f16744.png)
 
 > [!done] Answer
 > Always Notify
@@ -144,7 +144,7 @@ Needed admin permissions to open "flag.txt.txt", so I opened `cmd` as administra
 > [!Question]
 > **How many standard accounts are created in the VM?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218160218.png)
+![](/img/user/TryHackMe/THM_Images/b68572dc217cccf78f7b8b5bbd50f15c.png)
 
 Only one administrator account, no standard accounts
 
@@ -194,9 +194,9 @@ Only one administrator account, no standard accounts
 > [!Question]
 > **Open Windows Firewall and click on Monitoring in the left pane - which of the following profiles is active? Domain, Private, Public?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218163838.png)
+![](/img/user/TryHackMe/THM_Images/4ec9ebdd10f5940415aa041cf22d362d.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218163912.png)
+![](/img/user/TryHackMe/THM_Images/28556fb160dde2a08bb4a28eae59d5c8.png)
 
 > [!done] Answer
 > Private
@@ -204,9 +204,9 @@ Only one administrator account, no standard accounts
 > [!Question]
 > **Find the IP address resolved for the website tryhack.me in the Virtual Machine as per the local hosts file.**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218164159.png)
+![](/img/user/TryHackMe/THM_Images/eab6df8e0f5418d679a418ee4cc35088.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218164211.png)
+![](/img/user/TryHackMe/THM_Images/c5bcd2495f1d7f19f82a0a0945ed8683.png)
 
 > [!done] Answer
 > 192.168.1.140 
@@ -214,7 +214,7 @@ Only one administrator account, no standard accounts
 > [!Question]
 > **Open the command prompt and enter arp -a. What is the Physical address for the IP address 255.255.255.255?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218164253.png)
+![](/img/user/TryHackMe/THM_Images/efd682ac80556ea83bd4da3c43083779.png)
 
 > [!done] Answer
 > ff-ff-ff-ff-ff-ff
@@ -265,13 +265,13 @@ Only one administrator account, no standard accounts
 > [!Question]
 > **Windows Defender Antivirus is configured to exclude a particular extension from scanning. What is the extension?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218170219.png)
+![](/img/user/TryHackMe/THM_Images/e9fcc3faec9b9b81815545bb49699764.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218170238.png)
+![](/img/user/TryHackMe/THM_Images/3ea2fbfb135209aa8225f4bd5c7a0ea7.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218170331.png)
+![](/img/user/TryHackMe/THM_Images/7b7b82cfbc37d521420b4fe8592fd2b4.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218170344.png)
+![](/img/user/TryHackMe/THM_Images/70a85da5f73b30b75022948b4a71414b.png)
 
 > [!done] Answer
 > .ps
@@ -285,9 +285,9 @@ Only one administrator account, no standard accounts
 > [!Question]
 > **What is the flag you received after executing the Office Hardening Batch file?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218171110.png)
+![](/img/user/TryHackMe/THM_Images/6bddb0f2bd24016adf5fefed8a349240.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218171048.png)
+![](/img/user/TryHackMe/THM_Images/dc4f4f55685da89fd28b96dbe0e04152.png)
 
 > [!done] Answer
 > {THM_1101110}
@@ -323,9 +323,9 @@ Only one administrator account, no standard accounts
 > [!Question]
 > **A security engineer has misconfigured the attached VM and stored a BitLocker recovery key in the same computer. Can you read the last six digits of the recovery key?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218221953.png)
+![](/img/user/TryHackMe/THM_Images/7d84a0ee711135be0bd259b54751f5d1.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218222020.png)
+![](/img/user/TryHackMe/THM_Images/d4664ab4481892af591fbd07a30a7279.png)
 
 > [!done] Answer
 > 377564
@@ -341,10 +341,10 @@ Refer to screenshot above
 > [!Question]
 > **A backup file is placed on the Desktop of the attached VM. What is the extension of that file?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218222235.png)
+![](/img/user/TryHackMe/THM_Images/283e6efdb61a051652259dcfefa6eaee.png)
 
 > [!done] Answer
 > .bkf
 
-![](/img/user/TryHackMe/THM_Images/dbbd403c6b1196904312c7b88f2514f2.png)
+![](/img/user/TryHackMe/THM_Images/8eedd1af6260515750715d74076da3a4.png)
 

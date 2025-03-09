@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/network-device-hardening/","created":"2025-02-19T15:27:46.065-05:00","updated":"2025-02-19T18:05:51.321-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/network-device-hardening/","created":"2025-02-19T15:27:46.065-05:00","updated":"2025-03-09T16:38:29.827-04:00"}
 ---
 
 # Task 2 - Common Threats and Attack Vectors
@@ -109,9 +109,9 @@ D: IPsec**
 > [!Question]
 > **Update the config file to use cipher AES-128-CBC. What is the flag value linked with the cipher directive?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219173210.png)
+![](/img/user/TryHackMe/THM_Images/ff94764ca27fb42d0e01533733f18399.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219173253.png)
+![](/img/user/TryHackMe/THM_Images/e9ffd2e357a13d6bb702c9fda9e6a901.png)
 
 > [!Success] Answer
 > THM{CIPHER_UPDATED_1101}
@@ -159,11 +159,11 @@ Refer to previous screenshot
 
 First logged in with credentials given in the room
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219173901.png)
+![](/img/user/TryHackMe/THM_Images/5793de0ec406e205f30d097c8132f398.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219174141.png)
+![](/img/user/TryHackMe/THM_Images/10032fb074680ef0fdf32b32561e5a48.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219174222.png)
+![](/img/user/TryHackMe/THM_Images/d266ed4958dd4f7fd56fe07bbd59ebf7.png)
 
 > [!Success] Answer
 > 22
@@ -172,9 +172,9 @@ First logged in with credentials given in the room
 > [!Question]
 > **Go through the General Settings option under the System tab in the attached VM. The administrator has left a special message in the Notes section. What is the flag value?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219174249.png)
+![](/img/user/TryHackMe/THM_Images/645e693c60dbfad2d97163882076d4be.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219174344.png)
+![](/img/user/TryHackMe/THM_Images/e9040f9fdc545d1d0b783d353c937734.png)
 
 > [!Success] Answer
 > THM{SYSTEM101}
@@ -182,7 +182,7 @@ First logged in with credentials given in the room
 > [!Question]
 > **What is the default system log buffer size value for the OpenWrt router in the attached VM?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219174442.png)
+![](/img/user/TryHackMe/THM_Images/ed376c547efd0eb22924f7a9a3e85ce7.png)
 
 > [!Success] Answer
 > 64
@@ -190,9 +190,9 @@ First logged in with credentials given in the room
 > [!Question]
 > **What is the start priority for the script uhttpd?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219174511.png)
+![](/img/user/TryHackMe/THM_Images/fde85bd6e7ddee52aa1480620d63cad4.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219174534.png)
+![](/img/user/TryHackMe/THM_Images/ea983d71cf3ff1fdf1711c781d5366f7.png)
 
 > [!Success] Answer
 > 50
@@ -235,9 +235,9 @@ First logged in with credentials given in the room
 > [!Question]
 > **What is the name of the rule that accepts ICMP traffic from source zone WAN and destination zone as this device?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219175941.png)
+![](/img/user/TryHackMe/THM_Images/b3d3b07df3b5fd0d639ab7106e0c8327.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219180124.png)
+![](/img/user/TryHackMe/THM_Images/d49394105dc928553393a0e2789a5c96.png)
 
 > [!Success] Answer
 > Host-Centric
@@ -245,7 +245,7 @@ First logged in with credentials given in the room
 > [!Question]
 > **What is the name of the rule that forwards data coming from WAN port 9001 to LAN port 9002?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219180220.png)
+![](/img/user/TryHackMe/THM_Images/eb81670d18572a1757f925c413938525.png)
 
 > [!Success] Answer
 > THM_PORT
@@ -253,9 +253,9 @@ First logged in with credentials given in the room
 > [!Question]
 > **What is the version number for the available apk package?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219180259.png)
+![](/img/user/TryHackMe/THM_Images/e82beb8a6f9a551bd16b03d9d2ae275a.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250219180324.png)
+![](/img/user/TryHackMe/THM_Images/b14078d4a9433952ff4bf470e133c10d.png)
 
 > [!Success] Answer
 > 2.12.2-1

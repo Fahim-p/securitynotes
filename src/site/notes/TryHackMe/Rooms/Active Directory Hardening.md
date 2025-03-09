@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/active-directory-hardening/","created":"2025-02-18T22:36:07.517-05:00","updated":"2025-02-18T23:55:05.300-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/active-directory-hardening/","created":"2025-02-18T22:36:07.517-05:00","updated":"2025-03-09T16:38:29.519-04:00"}
 ---
 
 - **Domain**
@@ -40,11 +40,11 @@
 > [!Question]
 > **What is the root domain in the attached AD machine?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218225517.png)
+![](/img/user/TryHackMe/THM_Images/0123671686413db8a900c0a110b1f5d4.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218225728.png)
+![](/img/user/TryHackMe/THM_Images/0ce6a844e84d92c6b9076035fa00ac78.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218225659.png)
+![](/img/user/TryHackMe/THM_Images/f3b9df5a0174eaafa1ad5fffff7da345.png)
 
 > [!Success] Answer
 > tryhackme.loc
@@ -85,11 +85,11 @@
 > [!Question]
 > **What is the default minimum password length (number of characters) in the attached VM?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218231040.png)
+![](/img/user/TryHackMe/THM_Images/d03b2185b970294219a5b2c27cd0ad12.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218231317.png)
+![](/img/user/TryHackMe/THM_Images/9d16f81fcb5c2d2427cb133d2912aabb.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218231415.png)
+![](/img/user/TryHackMe/THM_Images/5cd3fb4aa60c8bc3a23ced869587bc40.png)
 
 > [!Success] Answer
 > 7
@@ -157,11 +157,11 @@
 > [!Question]
 > **Find and open `BaselineLocalInstall` script in PowerShell editor - Can you find the flag?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218233725.png)
+![](/img/user/TryHackMe/THM_Images/699e36d0b0621a3e3d86d16b5d67e5db.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218233747.png)
+![](/img/user/TryHackMe/THM_Images/1c0278fbe9d59f1d6386dd177a60cade.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218233806.png)
+![](/img/user/TryHackMe/THM_Images/4e21bf114e7adad7f3e53ad874ada86a.png)
 
 > [!Success] Answer
 > THM{00001}
@@ -169,9 +169,9 @@
 > [!Question]
 > **Find and open `MergePolicyRule` script (Policy Analyser) in PowerShell editor - Can you find the flag?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218233848.png)
+![](/img/user/TryHackMe/THM_Images/7a09f204424bd968c6561a21421e5b63.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218233911.png)
+![](/img/user/TryHackMe/THM_Images/c6f41bf2dbe9776efa715dba0980e512.png)
 
 > [!Success] Answer
 > {THM00191}
@@ -208,7 +208,7 @@
 > [!Question]
 > **As per the generated report, how many users have the same password as aaron.booth?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250218235013.png)
+![](/img/user/TryHackMe/THM_Images/b238186f992c772b3281a20b1b88ede6.png)
 
 > [!Success] Answer
 > 186

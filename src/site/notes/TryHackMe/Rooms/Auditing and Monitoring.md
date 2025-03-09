@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/auditing-and-monitoring/","created":"2025-02-20T19:07:33.496-05:00","updated":"2025-02-20T22:48:50.488-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/auditing-and-monitoring/","created":"2025-02-20T19:07:33.496-05:00","updated":"2025-03-09T16:38:29.550-04:00"}
 ---
 
 # Task 2 - Audit Objectives and Types
@@ -211,7 +211,7 @@ Searched up
 > [!Question]
 >  **Using `aureport`, how many failed logins have occurred so far?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220222228.png)
+![](/img/user/TryHackMe/THM_Images/e4477bdf36a8eac7b40bb51c234df36a.png)
 
 > [!Success] Answer
 > 1
@@ -219,7 +219,7 @@ Searched up
 > [!Question]
 >  **Using `ausearch`, how many failed logins are related to the username `mike`?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220222430.png)
+![](/img/user/TryHackMe/THM_Images/fdc26a715efe504a0745a3e1daaa3431.png)
 
 > [!Success] Answer
 > 4
@@ -227,7 +227,7 @@ Searched up
 > [!Question]
 >  **Using `ausearch`, how many failed logins are related to the username `root`?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220222625.png)
+![](/img/user/TryHackMe/THM_Images/bba529b914cda970e93c53590de58d90.png)
 
 > [!Success] Answer
 > 227
@@ -279,17 +279,17 @@ Example logon event IDs that can be used with windows event viewer
 
 Went to "Windows Logs" and then "Security Logs"
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220223626.png)
+![](/img/user/TryHackMe/THM_Images/f1082f62d66b9d2953e86a0b1e1138c8.png)
 
 Clicked on "Filter Current Log" on the right
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220223835.png)
+![](/img/user/TryHackMe/THM_Images/b3e9561d9c60c960be96dc8a77f238bf.png)
 
 Filled out with log id "4625" to filter for failed login attempts
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220223750.png)
+![](/img/user/TryHackMe/THM_Images/f053497acd4abf71d6a537ddc94c19d9.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220223904.png)
+![](/img/user/TryHackMe/THM_Images/43f08fb7a559f5af680cccbac25fcbce.png)
 
 > [!Success] Answer
 > 2
@@ -297,9 +297,9 @@ Filled out with log id "4625" to filter for failed login attempts
 > [!Question]
 >  **How many failed login attempts took place in 2021?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220224047.png)
+![](/img/user/TryHackMe/THM_Images/f9fe3374f7a58051a0f845a48d69aae5.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250220224118.png)
+![](/img/user/TryHackMe/THM_Images/f2f470cbe89322f54e03a0aa58e1e177.png)
 
 > [!Success] Answer
 > 1

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/ssdlc/","created":"2025-02-23T21:15:28.539-05:00","updated":"2025-02-23T23:11:09.310-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/ssdlc/","created":"2025-02-23T21:15:28.539-05:00","updated":"2025-03-09T16:38:29.968-04:00"}
 ---
 
 # Task 2 - What is SSDLC?
@@ -324,9 +324,9 @@ Information based of this [Vulnerability Management](Vulnerability%20Management.
 
 Complete the challenge to get the flag
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250223230547.png)
+![](/img/user/TryHackMe/THM_Images/408415fd0334eef58931924de3513eaa.png)
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250223231021.png)
+![](/img/user/TryHackMe/THM_Images/6c5affde7fae0a0804756452e792aff4.png)
 
 > [!Question]
 >  **What is the flag?**

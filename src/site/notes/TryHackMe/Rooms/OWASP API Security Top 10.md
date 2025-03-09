@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/owasp-api-security-top-10/","created":"2025-02-22T17:39:21.478-05:00","updated":"2025-02-22T20:29:35.602-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/owasp-api-security-top-10/","created":"2025-02-22T17:39:21.478-05:00","updated":"2025-03-09T16:38:29.873-04:00"}
 ---
 
 # Vulnerability 1: Broken Object Level Authorization (BLOA)
@@ -33,7 +33,7 @@
 
 Tried all incrementing values starting from 1 until I don't get a valid response. 3 was the last number in which I had a valid response of 200 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222180428.png)
+![](/img/user/TryHackMe/THM_Images/8d46bb176c3804161474dc9130a5bbfa.png)
 
 > [!Success] Answer
 > 3
@@ -41,7 +41,7 @@ Tried all incrementing values starting from 1 until I don't get a valid response
 > [!Question]
 >  **What is the flag associated with employee ID 2?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222180550.png)
+![](/img/user/TryHackMe/THM_Images/2f30e6fb4541fbde262add85d22e7db9.png)
 
 > [!Success] Answer
 > THM{838123}
@@ -49,7 +49,7 @@ Tried all incrementing values starting from 1 until I don't get a valid response
 > [!Question]
 >  **What is the username of employee ID 3?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222180632.png)
+![](/img/user/TryHackMe/THM_Images/c1874016e3549f391087e1bd940ad607.png)
 
 > [!Success] Answer
 > Bob
@@ -82,7 +82,7 @@ Tried all incrementing values starting from 1 until I don't get a valid response
 > [!Question]
 >  **Can you find the token of hr@mht.com?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222181952.png)
+![](/img/user/TryHackMe/THM_Images/a8e6d1245d4e949bd5a18b290aa41b75.png)
 
 > [!Success] Answer
 > cOC%Aonyis%H)mZ&uJkuI?_W#4&m>Y
@@ -90,11 +90,11 @@ Tried all incrementing values starting from 1 until I don't get a valid response
 > [!Question]
 >  **To which country does sales@mht.com belong?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222182243.png)
+![](/img/user/TryHackMe/THM_Images/a40143fb8a433aa17ec9a743f3426fdc.png)
 
 Authentication token for sales@mht.com: ~jSkQD:u<Zdo!JDvX_9V[GrD%:JTtU
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222182543.png)
+![](/img/user/TryHackMe/THM_Images/da6dece73b7cf7ffcc354ee016fc624f.png)
 
 > [!Success] Answer
 > China
@@ -132,7 +132,7 @@ Authentication token for sales@mht.com: ~jSkQD:u<Zdo!JDvX_9V[GrD%:JTtU
 > [!Question]
 >  **What is the device ID value for post-ID 2?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222185415.png)
+![](/img/user/TryHackMe/THM_Images/1b4d27b8b121dea26515b95c802db03d.png)
 
 > [!Success] Answer
 > iOS15.411
@@ -140,7 +140,7 @@ Authentication token for sales@mht.com: ~jSkQD:u<Zdo!JDvX_9V[GrD%:JTtU
 > [!Question]
 >  **What is the username value for post-ID 3?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222185610.png)
+![](/img/user/TryHackMe/THM_Images/84d80aa5c3430e72cb3be0dea38fa6bb.png)
 
 > [!Success] Answer
 > hacker#!
@@ -186,7 +186,7 @@ Authentication token for sales@mht.com: ~jSkQD:u<Zdo!JDvX_9V[GrD%:JTtU
 > [!Question]
 >  **What is the HTTP response code when you send a POST request to /apirule4/sendOTP_s using the email address hr@mht.com?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222190520.png)
+![](/img/user/TryHackMe/THM_Images/8b7e840301b1c7901c5c97bce6b5623e.png)
 
 > [!Success] Answer
 > 200
@@ -194,7 +194,7 @@ Authentication token for sales@mht.com: ~jSkQD:u<Zdo!JDvX_9V[GrD%:JTtU
 > [!Question]
 >  **What is the "msg key" value after an HTTP POST request to /apirule4/sendOTP_s using the email address sale@mht.com?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222190559.png)
+![](/img/user/TryHackMe/THM_Images/f93a397fe0f71355671461ad63e38e2d.png)
 
 > [!Success] Answer
 > nay
@@ -228,7 +228,7 @@ Authentication token for sales@mht.com: ~jSkQD:u<Zdo!JDvX_9V[GrD%:JTtU
 
 Used alice's authorization token to bypass the check.
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222193017.png)
+![](/img/user/TryHackMe/THM_Images/72f7b897dcbfa2dc452240b063a58fab.png)
 
 > [!Success] Answer
 > +1235322323
@@ -281,7 +281,7 @@ Refer to previous screenshot
 > [!Task]
 >  **Using /apirule6/user_s, insert a record in the database using the credit value as 1000**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222194701.png)
+![](/img/user/TryHackMe/THM_Images/f4ea8c613ea8486a2c3cc02fc2fe6ce7.png)
 
 > [!Question]
 >  **What would be the returned credit value after performing Question#2?**
@@ -330,7 +330,7 @@ Refer to previous screenshot
 > [!Task]
 >  **Try to use the API call /apirule7/ping_s in the attached VM**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222200056.png)
+![](/img/user/TryHackMe/THM_Images/0824e50bda9fffcb53b0939a6b06faa4.png)
 
 > [!Question]
 >  **What is the HTTP response code?**
@@ -385,7 +385,7 @@ Refer to previous screenshot
 > [!Question]
 >  **What is the HTTP response code if a user enters an invalid username or password?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222200933.png)
+![](/img/user/TryHackMe/THM_Images/cf45bffc7679770d279494e58e98fca6.png)
 
 > [!Success] Answer
 > 403
@@ -422,7 +422,7 @@ Refer to previous screenshot
 > [!Task]
 >  **Make an API call to /apirule9/v1/user/login using the username "Alice" and password "##!@#!!".**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222201944.png)
+![](/img/user/TryHackMe/THM_Images/6a69febf30c4aff0a4501dbbbe9b8d77.png)
 
 > [!Question]
 >  **What is the amount of balance associated with user Alice?**
@@ -469,7 +469,7 @@ Refer to previous screenshot
 > [!Question]
 >  **What is the HTTP response code in case of successful logging of user information?**
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250222202836.png)
+![](/img/user/TryHackMe/THM_Images/4bfe89e8fb6da623537ff15f30e03317.png)
 
 > [!Success] Answer
 > 200

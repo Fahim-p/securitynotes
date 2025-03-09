@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-system-hardening/","created":"2025-02-17T21:06:51.023-05:00","updated":"2025-02-18T14:34:53.475-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-system-hardening/","created":"2025-02-17T21:06:51.023-05:00","updated":"2025-03-09T16:38:29.782-04:00"}
 ---
 
 # Task 2 - Physical Security
@@ -24,7 +24,7 @@
 > [!Question]
 > **What does PBKDF2 stand for?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250217213800.png)
+![](/img/user/TryHackMe/THM_Images/e577dc46e6a8463779fd3c154dd24b3b.png)
 
 > [!Success] Answer
 > Password-Based Key Derivation Function 2
@@ -43,7 +43,7 @@
 			- Data encrypted by master key
 				- Master key is saved/encrypted by users password in KM section
 
-![](/img/user/TryHackMe/THM_Images/ee1310ecb1558e550a9bff3a53ece0ff.png)
+![](/img/user/TryHackMe/THM_Images/f3303a16069752a6bc8e22ce3171c23a.png)
 
 - Pseudocode to encrypt data
 	- `enc_data = encrypt(cipher_name, cipher_mode, key, original, original_length)`
@@ -85,7 +85,7 @@
 > **We cannot attach external storage to the VM, so we have created a `/home/tryhackme/secretvault.img` file instead. It is encrypted with the password `2N9EdZYNkszEE3Ad`. To access it, you need to open it using `cryptsetup` and then mount it to an empty directory, such as `myvault`. What is the flag in the secret vault?** 
 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250217224912.png)
+![](/img/user/TryHackMe/THM_Images/cc0ef4e76a81d75cb4a74cddfed7d54f.png)
 
 > [!Success] Answer
 > THM{LUKS_not_LUX}
@@ -148,7 +148,7 @@
 > [!Question]
 > **There is a firewall running on the Linux VM. It is allowing port 22 TCP as we can ssh into the machine. It is allowing another TCP port; what is it?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250217230746.png)
+![](/img/user/TryHackMe/THM_Images/4887763335e1761cf15498c3eb8c7fde.png)
 
 > [!Success] Answer
 > 12526
@@ -185,7 +185,7 @@ Refer to screenshot above
 > [!Question]
 > **What flag is hidden in the `sshd_config` file?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250217234041.png)
+![](/img/user/TryHackMe/THM_Images/9ff44b2dc33ea43c41941c53f85fbc48.png)
 
 > [!Success] Answer
 > THM{secure_SEA_shell}
@@ -228,7 +228,7 @@ Refer to screenshot above
 > [!Question]
 > **Other than `tryhackme` and `ubuntu`, what is the username that belongs to the sudoers group?** 
 
-![](/img/user/TryHackMe/THM_Images/Pasted image 20250217235735.png)
+![](/img/user/TryHackMe/THM_Images/86090bfcbbfeea81934b2292048b7b9b.png)
 
 > [!Success] Answer
 > blacksmith
@@ -295,7 +295,7 @@ Refer to screenshot above
 > [!Question]
 > **What flag is hidden in the `sources.list` file?** 
 
-![](/img/user/TryHackMe/THM_Images/Screenshot 2025-02-18 001707.png)
+![](/img/user/TryHackMe/THM_Images/ef2b60c01b16d5288e0a689666d81368.png)
 
 > [!Success] Answer
 > THM{not_Advanced_Persistent_Threat}

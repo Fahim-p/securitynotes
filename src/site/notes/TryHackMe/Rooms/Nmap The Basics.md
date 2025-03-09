@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/nmap-the-basics/","created":"2024-10-25T15:46:36.380-04:00","updated":"2025-02-06T21:55:07.114-05:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/nmap-the-basics/","created":"2024-10-25T15:46:36.380-04:00","updated":"2025-03-09T16:38:29.849-04:00"}
 ---
 
 
@@ -85,6 +85,7 @@
 
 > [!Success] Answer
 > -d
+
 # Task 7 - Conclusion and Summary
 
 > [!Question]
