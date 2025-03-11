@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/soc-fundamentals/","created":"2024-11-06T17:24:39.640-05:00","updated":"2025-03-09T16:38:29.945-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/soc-fundamentals/","created":"2024-11-06T17:24:39.640-05:00","updated":"2025-03-11T00:32:59.394-04:00"}
 ---
 
 # Task 2 - Purpose and Components

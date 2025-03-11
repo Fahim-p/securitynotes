@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/flare-vm-arsenal-of-tools/","created":"2024-12-02T18:33:00.000-05:00","updated":"2025-03-09T16:38:29.646-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/flare-vm-arsenal-of-tools/","created":"2024-12-02T18:33:00.000-05:00","updated":"2025-03-11T00:32:59.146-04:00"}
 ---
 
 # Task 2 - Arsenal of Tools

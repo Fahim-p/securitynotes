@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/network-device-hardening/","created":"2025-02-19T15:27:46.065-05:00","updated":"2025-03-09T16:38:29.827-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/network-device-hardening/","created":"2025-02-19T15:27:46.065-05:00","updated":"2025-03-11T00:32:59.304-04:00"}
 ---
 
 # Task 2 - Common Threats and Attack Vectors

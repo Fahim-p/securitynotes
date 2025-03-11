@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/owasp-api-security-top-10/","created":"2025-02-22T17:39:21.478-05:00","updated":"2025-03-09T16:38:29.873-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/owasp-api-security-top-10/","created":"2025-02-22T17:39:21.478-05:00","updated":"2025-03-11T00:32:59.343-04:00"}
 ---
 
 # Vulnerability 1: Broken Object Level Authorization (BLOA)

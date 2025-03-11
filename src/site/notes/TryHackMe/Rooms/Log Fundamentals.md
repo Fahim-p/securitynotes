@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/log-fundamentals/","created":"2024-11-20T17:15:47.908-05:00","updated":"2025-03-09T16:38:29.794-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/log-fundamentals/","created":"2024-11-20T17:15:47.908-05:00","updated":"2025-03-11T00:32:59.278-04:00"}
 ---
 
 # Task 2 - Type of Logs  

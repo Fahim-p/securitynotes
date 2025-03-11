@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/gobuster/","created":"2024-11-04T16:50:31.208-05:00","updated":"2025-03-09T16:38:29.660-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/gobuster/","created":"2024-11-04T16:50:31.208-05:00","updated":"2025-03-11T00:32:59.160-04:00"}
 ---
 
 # Task 3 - Gobuster Introduction

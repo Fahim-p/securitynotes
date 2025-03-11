@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/sqlmap-the-basics/","created":"2024-11-04T19:56:39.272-05:00","updated":"2025-03-09T16:38:29.957-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/sqlmap-the-basics/","created":"2024-11-04T19:56:39.272-05:00","updated":"2025-03-11T00:32:59.401-04:00"}
 ---
 
 # Task 2 - SQL Injection Vulnerability

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-system-hardening/","created":"2025-02-17T21:06:51.023-05:00","updated":"2025-03-09T16:38:29.782-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-system-hardening/","created":"2025-02-17T21:06:51.023-05:00","updated":"2025-03-11T00:32:59.264-04:00"}
 ---
 
 # Task 2 - Physical Security

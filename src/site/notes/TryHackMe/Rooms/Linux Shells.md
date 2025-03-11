@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-shells/","created":"2024-12-09T19:20:00.000-05:00","updated":"2025-03-09T16:38:29.770-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-shells/","created":"2024-12-09T19:20:00.000-05:00","updated":"2025-03-11T00:32:59.257-04:00"}
 ---
 
 # Task 2 - How to Interact With a Shell?

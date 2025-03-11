@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/windows-power-shell/","created":"2024-12-09T18:56:00.000-05:00","updated":"2025-03-09T16:38:30.094-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/windows-power-shell/","created":"2024-12-09T18:56:00.000-05:00","updated":"2025-03-11T00:32:59.533-04:00"}
 ---
 
 # Task 2 - What is PowerShell

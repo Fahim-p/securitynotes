@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/active-directory-hardening/","created":"2025-02-18T22:36:07.517-05:00","updated":"2025-03-09T16:38:29.519-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/active-directory-hardening/","created":"2025-02-18T22:36:07.517-05:00","updated":"2025-03-11T00:32:59.000-04:00"}
 ---
 
 - **Domain**

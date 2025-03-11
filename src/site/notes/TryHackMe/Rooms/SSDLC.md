@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/ssdlc/","created":"2025-02-23T21:15:28.539-05:00","updated":"2025-03-09T16:38:29.968-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/ssdlc/","created":"2025-02-23T21:15:28.539-05:00","updated":"2025-03-11T00:32:59.406-04:00"}
 ---
 
 # Task 2 - What is SSDLC?

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/virtualization-and-containers/","created":"2025-02-20T16:19:33.425-05:00","updated":"2025-03-09T16:38:30.019-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/virtualization-and-containers/","created":"2025-02-20T16:19:33.425-05:00","updated":"2025-03-11T00:32:59.437-04:00"}
 ---
 
 # Task 2 - What is Virtualization

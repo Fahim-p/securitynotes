@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/incident-response-fundamentals/","created":"2024-11-17T20:53:44.116-05:00","updated":"2025-03-09T16:38:29.694-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/incident-response-fundamentals/","created":"2024-11-17T20:53:44.116-05:00","updated":"2025-03-11T00:32:59.192-04:00"}
 ---
 
 # Task 2 - What are Incidents?
