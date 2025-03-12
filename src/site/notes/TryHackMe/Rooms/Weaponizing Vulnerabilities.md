@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/weaponizing-vulnerabilities/","created":"2025-03-10T17:27:16.376-04:00","updated":"2025-03-11T00:37:03.699-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/weaponizing-vulnerabilities/","created":"2025-03-10T17:27:16.376-04:00","updated":"2025-03-12T00:21:28.735-04:00"}
 ---
 
 # Task 1 - Introduction

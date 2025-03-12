@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/auditing-and-monitoring/","created":"2025-02-20T19:07:33.496-05:00","updated":"2025-03-11T00:32:59.059-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/auditing-and-monitoring/","created":"2025-02-20T19:07:33.496-05:00","updated":"2025-03-12T00:21:28.154-04:00"}
 ---
 
 # Task 2 - Audit Objectives and Types

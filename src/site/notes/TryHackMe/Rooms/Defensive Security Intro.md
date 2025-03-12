@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/defensive-security-intro/","created":"2024-12-03T17:43:00.000-05:00","updated":"2025-03-11T00:32:59.128-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/defensive-security-intro/","created":"2024-12-03T17:43:00.000-05:00","updated":"2025-03-12T00:21:28.232-04:00"}
 ---
 
 # Task 1 - Introduction to Defensive Security

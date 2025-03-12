@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/dast/","created":"2025-03-04T22:18:26.695-05:00","updated":"2025-03-11T00:32:59.114-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/dast/","created":"2025-03-04T22:18:26.695-05:00","updated":"2025-03-12T00:21:28.218-04:00"}
 ---
 
 # Task 2 - Dynamic Application Security Testing (DAST)

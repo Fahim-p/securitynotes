@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/cyber-chef-the-basics/","created":"2024-11-25T16:50:00.000-05:00","updated":"2025-03-11T00:32:59.092-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/cyber-chef-the-basics/","created":"2024-11-25T16:50:00.000-05:00","updated":"2025-03-12T00:21:28.191-04:00"}
 ---
 
 # Task 3 - Navigating the Interface

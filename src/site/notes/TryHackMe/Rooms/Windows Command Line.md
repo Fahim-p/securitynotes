@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/windows-command-line/","created":"2024-12-09T18:38:00.000-05:00","updated":"2025-03-11T00:32:59.512-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/windows-command-line/","created":"2024-12-09T18:38:00.000-05:00","updated":"2025-03-12T00:21:28.744-04:00"}
 ---
 
 # Task 2 - Basic System Information

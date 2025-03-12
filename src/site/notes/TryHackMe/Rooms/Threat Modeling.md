@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/threat-modeling/","created":"2025-02-08T19:46:17.186-05:00","updated":"2025-03-11T00:32:59.424-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/threat-modeling/","created":"2025-02-08T19:46:17.186-05:00","updated":"2025-03-12T00:21:28.678-04:00"}
 ---
 
 # Task 2 - Threat Modeling Overview

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/microsoft-windows-hardening/","created":"2025-02-18T14:46:59.028-05:00","updated":"2025-03-11T00:32:59.289-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/microsoft-windows-hardening/","created":"2025-02-18T14:46:59.028-05:00","updated":"2025-03-12T00:21:28.500-04:00"}
 ---
 
 # Task 2 - Understanding General Concepts

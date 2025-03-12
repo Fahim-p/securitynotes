@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-fundamentals-part-1/","created":"2024-12-03T18:14:00.000-05:00","updated":"2025-03-11T00:32:59.210-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-fundamentals-part-1/","created":"2024-12-03T18:14:00.000-05:00","updated":"2025-03-12T00:21:28.392-04:00"}
 ---
 
 # Task 4 - Running Your First Few Commands

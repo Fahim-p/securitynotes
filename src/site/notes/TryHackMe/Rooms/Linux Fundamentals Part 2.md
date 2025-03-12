@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-fundamentals-part-2/","created":"2024-12-03T18:54:00.000-05:00","updated":"2025-03-11T00:32:59.219-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/linux-fundamentals-part-2/","created":"2024-12-03T18:54:00.000-05:00","updated":"2025-03-12T00:21:28.410-04:00"}
 ---
 
 # Task 3 - Introduction to Flags and Switches

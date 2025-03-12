@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me-notes/","created":"2025-02-04T14:48:07.563-05:00","updated":"2025-03-11T00:32:59.626-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me-notes/","created":"2025-02-04T14:48:07.563-05:00","updated":"2025-03-12T00:21:28.876-04:00"}
 ---
 
 https://tryhackme.com/r/dashboard

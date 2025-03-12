@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/nmap-the-basics/","created":"2024-10-25T15:46:36.380-04:00","updated":"2025-03-11T00:32:59.327-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/nmap-the-basics/","created":"2024-10-25T15:46:36.380-04:00","updated":"2025-03-12T00:21:28.540-04:00"}
 ---
 
 

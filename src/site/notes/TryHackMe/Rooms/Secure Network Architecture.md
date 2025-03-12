@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/secure-network-architecture/","created":"2025-02-16T16:21:50.446-05:00","updated":"2025-03-09T16:38:29.933-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/secure-network-architecture/","created":"2025-02-16T16:21:50.446-05:00","updated":"2025-03-12T00:21:28.622-04:00"}
 ---
 
 # Task 2 - Network Segmentation

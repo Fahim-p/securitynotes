@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/try-hack-me/rooms/ids-fundamentals/","created":"2024-11-23T21:56:27.960-05:00","updated":"2025-03-11T00:32:59.179-04:00"}
+{"dg-publish":true,"permalink":"/try-hack-me/rooms/ids-fundamentals/","created":"2024-11-23T21:56:27.960-05:00","updated":"2025-03-12T00:21:28.313-04:00"}
 ---
 
 # Task 2 - Types of IDS
